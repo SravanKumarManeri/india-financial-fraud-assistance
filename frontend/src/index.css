@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #0d6efd;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #212529;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.max-w-700 {
+  max-width: 700px;
+}
+
+.max-w-800 {
+  max-width: 800px;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.transition-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transition-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
